@@ -254,3 +254,80 @@ tbody tr:nth-child(even) {
     width: 100%;
 }
 
+.st {
+    color: #1D2231;
+    font-weight: bold;
+    border-bottom: 2px solid #1D2231;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.trendy .count_top {
+    font-size: 13px;
+    white-space: nowrap;
+    color: #73879C;
+
+}
+.trendy .count {
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #73879C;
+    padding: 5px 10px 0;
+}
+
+.trendy a {
+    color: #73879C;
+    padding: 5px 13px 0;
+    text-decoration: none;
+}
+
+.trendy a:hover {
+    color: #1D2231;
+    padding: 5px 13px 0;
+    text-decoration: none;
+}
+.trendy .card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    padding: 2rem;
+    margin: 2rem 1rem;
+    max-width: 40rem;
+}
+.presenter .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+
+.presenter .links a:hover {
+    color: #8390A2;
+}
+
+.add-button {
+    color: #007aff;
+    padding: 10px 25px;
+    border: 1px solid #007aff;
+    border-radius: 15px;
+}
+
+.add-button:hover {
+    background-color: #007aff;
+    color: #dddddd;
+    padding: 10px 25px;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+}
+.view-form {
+    text-decoration: none;
+}
+div .view-form {
+    padding: 5px 10px;
+}
+div .view-form:hover {
+    color: white;
+    background: #007aff;
+    padding: 5px 10px;
+}
